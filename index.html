@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css_cryptoh.css">
+    <title>CriptoH</title>
+</head>
+<body>
+    <section class="main__page">
+        <div class="main__left">
+            <div class="main__left__title">
+                <h1>Cryptho</h1>
+            </div>
+            <p> <img src="assets/bi_exclamation-circle-fill.png"> Apenas letras minúsculas e sem acento.</p>
+            <form id = "form">
+                <label for="textarea">
+                    <textarea id="textarea" placeholder="Escreva seu texto aqui" rows="15" cols="40"></textarea>
+            </form>
+                <div class="main__left__buttons ">
+                <button class="button__encrypt" id="btn_cripto">Criptografar</button>
+                <button class="button__encrypt" id="btn_decripto">Descriptografar</button>
+                </div>
+        </div>
+        <div class="main__right">
+            <p>Digite o texto que você quer <br> criptografar ou descriptografar ao lado</p>
+            <div class="result" id="paragrafo__result"></div>
+            <div class="main__right__button">
+                <div class="button__copy">
+                    <button class="button__copy" id="btn__copy">Copiar</button> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

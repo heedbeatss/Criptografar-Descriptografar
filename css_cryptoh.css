@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Anta&family=Kode+Mono:wght@400..700&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    margin: 0;
+    background-color: #635985;
+    
+}
+
+.main__page {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+}
+
+.main__left {
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    background-color: #635985;
+    padding-left: 5%;
+    padding-top: 5%;
+
+}
+
+.main__left > p {
+    font-family: 'Work Sans', sans-serif;
+    font-size: small;
+    padding-left: 5%;
+}
+
+.main__left__title {
+    font-family:'Anta', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 0%;
+    padding-left: 4%;    
+    color: #443C68;
+}
+
+.main__left__textarea {
+    display: flex;
+    justify-content: flex-start;
+    padding-top: 3%;
+    padding-bottom: 3%; 
+    background-color:#635985;
+    font-family: 'Kode Mono', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+
+}
+
+label, textarea {
+    font-family: 'Kode Mono', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+    outline: none;
+    background-color: #635985;
+    padding-top: 3%;
+    padding-left: 5%;
+    border-radius: 5%;
+    
+   }
+
+::placeholder {
+    padding: 0.5%;
+    color: black;
+    font-family: 'Kode Mono', sans-serif;
+    font-weight: 400;
+    font-size: medium;
+}
+
+.main__left__buttons {
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding-left: 1.5%;
+    gap: 10px;
+}
+
+.button__encrypt {
+    background-color: #393053;
+    padding: 4%;
+    color: white;   
+    box-shadow: 0px 2px 0px 0px #18122B;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.button__decrypt {
+    background-color: #393053;
+    padding: 2%;
+    color: white;   
+    box-shadow: 0px 2px 0px 0px #18122B;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.main__right {
+    padding-top: 13%;
+    padding-right: 5%;
+    width: 35%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    font-family:'Anta', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    padding-bottom: 0%;
+    padding-left: 4%;    
+    color: #18122B;
+}
+
+.result {
+    padding-top: 8%;
+    padding-bottom: 3%;
+    padding-left: 5%;
+    display: flex;
+    justify-content: start;
+    align-items: start;
+}   
+
+.main__right__button {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20%;
+}
+
+.button__copy {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #393053;
+    width: 80%;
+    padding: 5%;
+    padding-right: 0%;
+    color: white;   
+    box-shadow: 0px 2px 0px 0px #18122B;
+    text-transform: uppercase;
+    font-weight: 800;
+    letter-spacing: 3px;
+    cursor: pointer;
+    border-radius: 10px;
+}
