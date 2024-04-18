@@ -78,7 +78,7 @@ label, textarea {
     gap: 10px;
 }
 
-.button__encrypt {
+.button__crypt {
     background-color: #393053;
     padding: 4%;
     color: white;   
@@ -90,17 +90,6 @@ label, textarea {
     border-radius: 10px;
 }
 
-.button__decrypt {
-    background-color: #393053;
-    padding: 2%;
-    color: white;   
-    box-shadow: 0px 2px 0px 0px #18122B;
-    text-transform: uppercase;
-    font-weight: 800;
-    letter-spacing: 3px;
-    cursor: pointer;
-    border-radius: 10px;
-}
 
 .main__right {
     padding-top: 13%;
