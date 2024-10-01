@@ -1,9 +1,9 @@
-CriptoH
+**CriptoH**
 
 O CriptoH é uma aplicação web simples para criptografar e descriptografar textos. Ele permite ao usuário converter texto simples em texto criptografado usando uma técnica específica e, posteriormente, descriptografar esse texto criptografado de volta para o texto original.
 
 
-Características:
+**Características:**
 
 Criptografa e descriptografa textos simples.
 
@@ -14,12 +14,12 @@ Interface de usuário intuitiva e minimalista.
 Suporta apenas letras minúsculas e sem acento.
 
 
-Pré-requisitos
+**Pré-requisitos**
 
 Não há pré-requisitos especiais para executar o CriptoH. Basta ter um navegador da web instalado e funcionando.
 
 
-Como usar:
+**Como usar:**
 
 Abra o arquivo index.html em seu navegador da web.
 
@@ -30,7 +30,7 @@ Clique no botão "Criptografar" para criptografar o texto ou no botão "Descript
 O resultado será exibido na área de resultados.
 
 
-Demonstração:
+**Demonstração:**
 
 Você pode experimentar o CriptoH utilizando o link do vercel também.
 
